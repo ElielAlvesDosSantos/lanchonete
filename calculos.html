@@ -1,31 +1,24 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="calculos.js" defer></script>
-    <title>Compras</title>
-</head>
-<body>
-    <h1>Compras - Lanchonete</h1>
-    <label for="produto">Digite produto</label>
-    <input type="text" id="produto">
-    <label for="qtde_produtos">&emsp;Digite a Quantidade do produtos:</label>
-    <input type="text" id="qtde_produtos">
-    <label for="preco_produto">&emsp;Digite o Preço do produto:</label>
-    <input type="text" id="preco_produto">
-    <br>
-    <br>
-    <button id="parcial">Confirma compra</button>
-    <br>
-    <br>
-    <button id="total">Total da Venda</button>
-    <br>
-    <p id="vetor"></p>
-    <p id="valor_compra"></p>
-    
-
-    
-</body>
-</html>
+<table>
+    <thead>
+        <tr>
+            <th>Lanche</th>
+            <th>Preço Unitário</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cachorro Quente</td>
+            <td>R$7,90</td>
+            <td><input type="number" id="qtdCachorroQuente" value="0"></td>
+        </tr>
+        <tr>
+            <td>Misto Quente</td>
+            <td>R$5,75</td>
+            <td><input type="number" id="qtdMistoQuente" value="0"></td>
+        </tr>
+        <tr>
+            <td>Bauru</td>
+            <td>R$11,35</td>
+            <td><input type="number" id="qtdBauru" value="0"></td>
+        
